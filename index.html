@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--White background on icon so it stays visible during dark mode browsers-->
+    <link rel="shortcut icon" href="./images/My_Photo.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/8a2ffb66a4.js" crossorigin="anonymous"></script>
+    <title>Gourish's Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <h2 class='logo'>
+            <a target="blank" href="https://github.com/Gourish14">
+                Gourish
+            </a>
+        </h2>
+        <input type="checkbox" id="btn-toggle">
+        <label for="btn-toggle" class='btn-toggle'>
+            <span></span>
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href='#home'>Home</a></li>
+                <li><a href='#about'>About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contactme">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About -->
+    <div class="main" id="home">
+        <div class="first">
+            <h1 class="first-a fade">Hello Developers,</h1>
+            <h3 class="first-b">I am Gourish Bhagat !!</h3>
+            <div id="c">
+                <h4 class="first-c">
+                    I am a Full Stack Web Developer and a Data Analyst.<br>Currently working as Software Engineer Trainee at Cozentus Technologies Pvt. Ltd.
+                </h4>
+                <div class="myButton">
+                    <a href="https://drive.google.com/file/d/14zyjayy9hdl-EwhZIFptD4y_50ifY7iY/view?usp=sharing"
+                        target="blank">
+                        Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="second fade">
+            Start Scrolling and take a look at my Portfolio :- <br>
+        </div>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="arrow"></i></button>
+
+    <!--Scroll Icon -->
+    <div class='icon-scroll'></div>
+
+    <!-- Intro -->
+    <div class="intro" id="about">
+        <div class="intro-text">
+            <div class="intro-head">
+                About Me
+            </div>
+
+
+            <p class="stagger">
+                Hello everyone, My name is Gourish Bhagat and I'm currently working as Software Engineer Trainee at Cozentus Technologies. For more information, have a look at the below listed points.
+            </p>
+            
+            <p class="stagger">
+                📍Highly motivated software engineer eager to kick-start my career in the tech industry.
+            </p>
+            
+            <p class="stagger">
+                📍Recent graduate with a strong academic background in electronics and communication engineering and a passion for coding and problem-solving.
+            </p>
+            
+            <p class="stagger">
+                📍Proficient in Full Stack Web Development and Data Analytics, I possess a solid foundation in software development principles and methodologies. 
+            </p>
+            
+            <p class="stagger">
+                📍A quick learner with excellent analytical skills, I am eager to apply my knowledge and contribute to innovative projects.
+            </p>
+            
+            <p class="stagger">
+                📍Committed to delivering high-quality solutions, I thrive in collaborative team environments and continuously seek opportunities to expand my skill set.
+            </p>
+    
+            <p class="stagger">
+                📍Let's connect and explore how we can leverage technology to create impactful solutions.
+            </p>
+        </div>
+        <img src="./images/My_Photo.jpg" alt="">
+    </div>
+
+    <!-- Skills -->
+
+    <div class="skills" id="skills">
+        <div class="skills-heading">
+            My Skills
+        </div>
+        <div class="skills-text">
+
+            <div class="skill-card">
+                <div class="skill-name"><u> Languages </u></div>
+                <ul>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-name"><u> Tools & Libraries </u></div>
+                <ul>
+                    <li>HTML 5</li>
+                    <li>CSS 3</li>
+                    <li>React.Js</li>
+                    <li>Bootstrap</li>
+                    <li>GIT</li>
+                </ul>
+            </div>
+
+
+            <div class="skill-card">
+                <div class="skill-name"> <u>Backend Tech.</u> </div>
+                <ul>
+                    <li>PHP</li>
+                    <li>Postman</li>
+                    <li>MYSQL</li>
+                    <li>PostgreSQL</li>
+                    <li>AWS</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-name"> <u>Other Skills</u> </div>
+                <ul>
+                    <li>MATLAB</li>
+                    <li>Data Analytics</li>
+                    <li>Internet of Things</li>
+                    <li>Problem Solving</li>
+                    <li>Application Testing</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="projects" id="projects">
+        <div class="projects-heading">
+            <a class="link-on-heading" href="https://github.com/Gourish14" target="_blank" style="text-decoration: none;"> My Projects </a>
+        </div>
+        <div class="grid-container">
+
+            <div class="grid-item">
+                <div class="project-name">
+                    <a class="project-link" href="https://github.com/Gourish14/BasicBankingSystem" target="_blank">
+                        Basic Banking System</a>
+                </div>
+                <div class="project-desc">
+                    Simply a Basic Banking Website created by using HTML, CSS & JavaScript as frontend ; PHP as backend and MYSQL as Database
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="project-name">
+                    <a class="project-link" href="https://github.com/Gourish14/Razorpay-Payment-Integration" target="_blank">
+                        Razorpay Payment Integration </a>
+                </div>
+                <div class="project-desc">
+                    Created a Donation Website using HTML, CSS & JavaScript and Razorpay as payment gateway.
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="project-name">
+                    <a class="project-link" href="https://github.com/Gourish14/Interlink-Platform-Frontend"
+                        target="_blank">Interlink Platform</a>
+                </div>
+                <div class="project-desc">
+                    Created a Dynamic website for the Government of India by using HTML, CSS, JavaScript and Bootstrap.
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="project-name">
+                    <a class="project-link" href="https://github.com/Gourish14/Netflix-Website-Clone" target="_blank">
+                        Netflix Website Clone </a>
+                </div>
+                <div class="project-desc">
+                    Created a Netflix Website clone by using HTML and CSS only.
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="project-name">
+                    <a class="project-link" href="https://github.com/Gourish14/Prediction-using-Unsupervised-Machine-Learning" target="_blank">
+                        Prediction using Unsupervised Machine Learning</a>
+                </div>
+                <div class="project-desc">
+                    Predicting the optimum number of cluster for the iris data set .iris data set consists of 3 types of flower namely Iris-setosa Iris-versicolour and Iris-virginicae.
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="project-name">
+                    <a class="project-link" href="https://github.com/Gourish14/Prediction-using-Supervised-Machine-Learning" target="_blank">
+                        Prediction using Supervised Machine Learning</a>
+                </div>
+                <div class="project-desc">
+                    Predicting the percentage of a student on the basis of number of hours studied using the Linear Regression supervised machine learning algorithm.
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Experience -->
+    <div class="experience" id="experience">
+
+        <div class="experience-heading">
+           My Experience
+        </div>
+
+        <div class="experience-list">
+
+            <div class="experience-text">
+                <div class="experience-name">
+                   <a class="link-on-experience" href=""> React Web Developer at Megamind Education and Welfare Private Limited </a>
+                </div>
+                <div class="time-period"> May 2022 - June 2022</div>
+
+                <div class="responsibilities" >
+                    Working on the react-based "whiteboard" website where students and
+                    tutors can get their respective courses as well as upload their courses.<br>
+                    Working on the database for the initialization and saving the documents
+                    of registered students and tutors for the further processess.
+                </div>
+            </div>
+
+            <div class="experience-text">
+                    <div class="experience-name">
+                        <a class="link-on-experience" href=""> Application Tester at MeetHive </a>
+                    </div>
+                <div class="time-period"> August 2021 - September 2021</div>
+
+                    <div class="responsibilities" >
+                        Worked as an "Application Tester" intern at MeetHive for the "Talky" app.<br>
+                        Learnt about the identification of various bugs aspects throughout the app.
+                    </div>
+            </div>
+
+            <div class="experience-text">
+                    <div class="experience-name">
+                        <a class="link-on-experience" href=""> Web Development and Design Intern at The Sparks Foundation </a>
+                    </div>
+                <div class="time-period"> June 2021 - July 2021</div>
+
+                    <div class="responsibilities" >
+                        Worked as an intern at The Sparks Foundation on Web Development and Design.<br>
+                        Completed a Project on Basic Banking System where I created a website by using HTML, CSS & JavaScript as frontend ; PHP as backend and MYSQL as Database.<br>
+                        It was great experience for me as I got to implement all the concepts learned through the project implementation.
+                    </div>
+            </div>
+
+            <div class="experience-text">
+                <div class="experience-name">
+                    <a class="link-on-experience" href="" > Internet of Things Intern at Verzeo </a>
+                </div>
+                <div class="time-period"> February 2021 - March 2021</div>
+                <div class="responsibilities" >
+                    Worked as an intern at Verzeo on Internet of Things(IoT).<br>
+                    Completed Minor Project to design an mobile application to send data to thingspeak.<br>
+                    Completed Major Project to design a Water level IoT system.<br>
+                    It was great experience as I got to learn all the concepts and tried implementing all the concepts learned through project implementation.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contactme">
+        <h2><u>Contact Me</u></h2>
+        <!-- social icons -->
+        <div class="icons">
+            <ul>
+                <li><a class="social-icon social-icon--facebook" href="https://www.facebook.com/gourish.bhagat.3"
+                        target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i>
+                        <div class="tooltip">facebook</div>
+                    </a></li>
+                <li><a class="social-icon social-icon--github" href="https://github.com/Gourish14" target="_blank"><i
+                            class="fab fa-github" aria-hidden="true"></i>
+                        <div class="tooltip">GitHub</div>
+                    </a></li>
+                <li><a class="social-icon social-icon--linkedin" href="https://www.linkedin.com/in/gourish-bhagat-4725061a9/"
+                        target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <div class="tooltip">linkedin</div>
+                    </a></li>
+                <li><a class="social-icon social-icon--instagram" href="https://instagram.com/gourish._.bhagat/"
+                        target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
+                        <div class="tooltip">instagram</div>
+                    </a></li>
+                <li><a class="social-icon social-icon--envelope" href="mailto:gourishbhagat01@gmail.com"
+                        target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i>
+                        <div class="tooltip">mail</div>
+                    </a></li>
+            </ul>
+        </div>
+
+        <!-- gsap animation script tag -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+            integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"
+            integrity="sha512-CPA5LMoJI/a5HkSIAKcBtFXe4gqGjPUL2ExF/3PmhrrHI17wod9xOqqF+0WZQRKIIq0KwF8oG5BaiWobtrke3A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- javascript script tag -->
+        <script src="./app.js"></script>
+
+</body>
+
+</html>
